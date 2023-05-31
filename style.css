@@ -38,17 +38,19 @@ body * {
 
 #container {
     width: 360px;
-    margin: 56px auto 0px;
+    margin: 0px auto 0px;
     padding: 0 24px;
 }
 
 #profile {
     text-align: center;
-    padding: 24px;
+    padding: 16px;
 }
 
 #profile img {
-    width: 112px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 
 #profile p {
@@ -151,4 +153,3 @@ ul li a:hover {
     background: var(--highlight-color);
     
 }
-
